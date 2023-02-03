@@ -1,0 +1,869 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');*{
+    padding: 0;
+    margin: 0;
+}
+/* start of nav */
+nav{
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    padding-top: 25px;
+}
+nav .list{   
+     margin-right: 15%;
+}
+nav .list ul{
+    display: flex;
+    list-style-type: none;
+
+}
+nav .list a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.549);
+    margin-right: 20%;   
+}
+nav .list a:hover{
+    color: rgb(0, 0, 255);
+}
+nav .logo{
+    margin-right:  5% ;
+}
+nav .logo i{
+    margin-right: 10px;
+    color: rgba(0, 0, 0, 0.53);
+}
+nav .logo i:hover{
+    color: rgb(0, 0, 255);
+
+}
+nav .aroma{
+    margin: 0 15%  ;
+}
+nav .buy a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.549);
+    border: 2px solid rgba(0, 0, 0, 0.549);
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+nav .buy a:hover{
+    background-color: blue;
+}
+/* start of navbar */
+.navbar{
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(0, 0, 255);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    position: relative;
+}
+
+.navbar .second{
+    background-color:whitesmoke;
+}
+.navbar .second img  {
+    margin: 50px 0px 0px -230px  ;
+    width: 20%;
+    height: 479px;
+    position: absolute;
+    bottom: 0px;
+}
+.second .desc{
+width: 430px;
+height: 200px;
+margin: 150px;
+}
+.desc h3{
+    color:rgba(0, 0, 0, 0.549) ;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.desc h1{
+    font-size: 35px;
+    word-spacing: 5px;
+    margin-bottom: 20px;
+}
+.desc p{
+    font-size: 14px;
+    color: grey;
+    margin-bottom: 40px;
+}
+.desc a{
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+.desc a:hover{
+    background-color: red;
+}
+/* start of picture */
+.picture{
+    width: 100%;
+    height: 40vh;
+    display: grid;
+    margin: 10px 0px;
+    display: flex;
+}
+.picture img{
+    width: 33%;
+    height: 40vh;
+}
+.picture img:nth-child(2){
+    margin:0px 10px ;
+}
+/* start of tittle */
+.tittle p,.besttittle p,.news p{
+    color: gray;
+    font-size: 20px;
+    padding: 60px 0px 0px 150px;
+}
+ .tittle h1,.besttittle h1{
+    font-family: 'Fjalla One', sans-serif;
+    padding: 5px 0px 0px 150px;
+}
+.tittle h1::after{
+    content: "Product";
+    border-bottom: 2px solid blue;
+    font-family: 'Fjalla One', sans-serif;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+/* start of product */
+.product,.best,.footer1{
+    margin: 5px 10% 0px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 5px;
+}
+.product div p,.best div p{
+    color: gray;
+    margin-left: 33%;
+}
+.product div h2,.best div h2{
+font-size: 17px;
+margin-left: 25%;
+margin-bottom: 3px;
+}
+.product div img,.best div img,.footer1 div img{
+    margin: 40px 0px 10px;
+}
+/* start of center */
+.center{
+    width: 100%;
+    height: 40vh;
+    background: url(../project/img/home/parallax-bg.png) no-repeat center;
+    background-size: 100% 40vh;
+    margin: 100px 0px 50px;
+}
+.center div{
+    margin: 5% 0px 0px 30%;
+    display: inline-block;
+}
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');.center div h1{
+    font-size: 40px;
+    font-family: 'Barlow', sans-serif;
+
+}
+.center div h2{
+    margin: 10px 60px 5px;
+    font-size: 25px;
+    font-family: 'Barlow', sans-serif;
+
+}
+.center div p{
+    color: rgb(128, 128, 128);
+    margin-bottom: 30px;
+}
+.center div a{
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    padding: 10px 40px;
+    border-radius: 30px;
+    margin-left: 40px;
+}
+.center div a:hover{
+    background-color: red;
+}
+/*start of besttittle */
+.besttittle h1::after{
+    content: "Sellers";
+    border-bottom: 2px solid blue;
+    font-family: 'Fjalla One', sans-serif;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+.pproduct{
+    position: relative;
+}
+
+.right i{
+position: absolute;
+right: 120px;
+top: 180px;
+padding: 10px;
+border-radius: 5px;
+background-color: rgba(169, 169, 169, 0.504);
+color: blue;
+}
+.left i{
+position: absolute;
+left: 80px;
+top: 180px;
+padding: 10px;
+padding: 10px;
+border-radius: 5px;
+background-color: rgba(169, 169, 169, 0.504);
+color: blue;
+}
+/* start of news */
+.news{
+    margin-top: 100px;
+}
+.news h1{
+    margin:20px 0px 0px 150px;
+    font-family: 'Fjalla One', sans-serif;
+
+}
+.news h1::after{
+    content: "News";
+    border-bottom: 2px solid blue;
+    font-family: 'Fjalla One', sans-serif;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+/* start of footer1 */
+.footer1{
+    grid-template-columns: repeat(3,1fr);
+}
+.footer1 div p:not(.latestdesc){
+    color: gray;
+    font-size: 19px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.footer1 div h2{
+font-size: 22px;
+margin: 15px 0px 25px;
+font-family: 'Fjalla One', sans-serif;
+}
+.footer1 div p i:not(.latestdesc i){
+    margin-left: 25px;
+}
+.footer1 p i{
+    color: gray;
+}
+.footer1 p i:hover{
+    color: blue;
+}
+/* start of footer2 */
+.footer2{
+    width: 100%;
+    height: 70vh;
+    margin-top: 50vh;
+    background-color: rgb(0,36,71);
+    position: relative;
+
+}
+.footer2 .form{
+    width: 70%;
+    text-align: center;
+    height: 40vh;
+    background-color: white;
+    margin-left:15%;
+    position: relative;
+    bottom: 30vh;
+}
+.footer2 .form h1{
+    margin: 60px 0px 10px;
+    display: inline-block;
+    font-size: 30px;
+    font-family: 'Fjalla One', sans-serif;
+    word-spacing: 5px;
+}
+.footer2 .form p{
+    color: gray;
+    margin-bottom: 20px;
+}
+.footer2 .form input{
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+.footer2 .form input[type="email"]{
+    width: 270px;
+    position: absolute;
+    right: 25%;
+    position: absolute;
+    left: 26%;
+}
+.footer2 .form input[type="button"]{
+    width: 150px;
+    position: absolute;
+    right: 25%;
+    background-color: blue;
+}
+.footer2 .first{
+width:20%;
+height: 30vh;
+position: absolute;
+left: 225px;
+bottom: 150px;
+margin-right: 10px;
+}
+.footer2 .first h1,.footer2 .second h1,.footer2 .img h1,.footer2 .last h1 {
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 30px;
+    word-spacing: 5px;
+    margin-bottom: 10px;
+}
+.footer2 .first p{
+    color: gray;
+    font-size: 18px;
+}
+.footer2 .first .one{
+    margin-bottom: 20px;
+}
+.footer2 .second{
+    width: 10%;
+    height: 30vh;
+    position: absolute;
+    left: 620px;
+    bottom: 150px;
+}
+.footer2 .second ul{
+    list-style-type: none;
+}
+.footer2 .second ul  a{
+   text-decoration: none;
+}
+.footer2 .second ul li:hover{
+    background-color: red;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.footer2 .second ul li{
+    color: gray;
+    margin-bottom: 15px;
+}
+.footer2 .img {
+    width: 13%;
+    height: 40vh;
+    position: absolute;
+    left: 840px;
+    bottom: 80px;
+}
+.footer2 .img img{
+    padding: 2px;
+}
+.footer2 .last{
+    width: 14%;
+    height: 40vh;
+    position: absolute;
+    left: 1120px;
+    bottom: 80px;
+}
+.footer2 .last .one{
+    color: white;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.footer2 .last .one i{
+    margin-right: 10px;
+}
+
+.footer2 .last p:not(.one){
+    margin-left: 25px;
+    color: gray;
+}
+.footer2 .last div{
+    margin: 20px 0px;
+}
+.footer2 .last .one:hover{
+    background-color: red;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.footer2 .final{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 255, 0.078);
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+.footer2 .final p{
+    color: white;
+    padding-top: 15px;
+    font-size: 20px;
+}
+.footer2 .final p i{
+    margin-left:5px;
+}
+.footer2 .final p a{
+    color: blue;
+    text-decoration: none;
+}
+.footer2 .final p a:hover{
+    color: red;
+}
+
+/* ******************************************************* */
+/* start of shop */
+/* start of navbarshop */
+.navbarshop,.navbarcontact{
+    width: 100%;
+    height: 70vh;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.navbarshop h1,.navbarcontact h1{
+margin: 30vh  0px 0px 100px;
+font-size: 40px;
+font-family: 'Barlow', sans-serif;
+
+}
+.navbarshop p,.navbarcontact p{
+    margin: 38vh  0px 0px -180px;
+    font-family: 'Barlow', sans-serif;
+    color: gray;
+}
+/* start of produvtshop */
+.productshop{
+    width:58%;
+    height: 80vh;
+    margin:100px 0px 100px 500px ;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.productshop div p{
+    color: gray;
+    margin-left: 33%;
+}
+.productshop div h2{
+font-size: 17px;
+margin-left: 25%;
+margin-bottom: 3px;
+}
+.productshop div img{
+    margin: 50px 0px 10px;
+}
+.listshop{
+    grid-column: 1/4;
+    background-color: whitesmoke;
+    width: 97%;
+    height: 80px;
+    position: relative;
+}
+.listshop .firstselect,.secondselect,input {
+    color: gray;
+    padding: 10px 20px;
+    font-size: 15px;
+    margin: 20px;
+}
+.listshop .secondselect {
+    margin: 20px 10px;
+}
+.listshop input{
+    margin-left: 260px;
+}
+.listshop i{
+    color: gray;
+    position: absolute;
+    top: 35px;
+    right:45px;
+}
+ input:hover{
+    background-color: blue;
+}
+.ppproductshop{
+    position: relative;
+}
+
+.element1 .first,.element2 .first{
+    background-color: blue;
+    color: white;
+    padding: 10px 0px 10px 30px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+}
+.element1{
+    width: 15%;
+    background-color: whitesmoke;
+    color: gray;
+    position: absolute;
+    top: 700px;
+    left: 200px;
+}
+
+.element2{
+    width: 15%;
+    background-color: whitesmoke;
+    color: gray;
+    position: absolute;
+    top: 1130px;
+    left: 200px;
+}
+.element2 .brand{
+    padding: 20px 0px 0px 10px;
+}
+.element3 .colors{
+    padding: 20px 0px 0px 10px;  
+}
+.element3{
+    width: 15%;
+    background-color: whitesmoke;
+    color: gray;
+    position: absolute;
+    top: 1475px;
+    left: 200px; 
+}
+.element4{
+    width: 15%;
+    background-color: whitesmoke;
+    color: gray;
+    position: absolute;
+    top: 1779px;
+    left: 200px; 
+}
+.element4  input{
+    width: 30%;
+}
+
+.element4 section {
+    height: 60px;
+    display: flex;
+    position: relative;
+}
+.element4  section .vv{
+    position: relative;
+    left: -44px;
+}
+.element4 div{
+    padding: 0px 0px 20px 15px;
+}
+/* start of top */
+.top{
+    margin: 110vh 0px 0px 30px;
+    
+}
+.top h1{
+    margin:20px 0px 0px 150px;
+    font-family: 'Fjalla One', sans-serif;
+
+}
+.top h1::after{
+    content: "News";
+    border-bottom: 2px solid blue;
+    font-family: 'Fjalla One', sans-serif;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+.top p{
+    margin:20px 0px 0px 150px;
+    color: gray;
+}
+/* start of newsshop */
+.newsshop{
+    width: 80%;
+    height: 60vh;
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    padding: 10px;
+    margin-bottom: 30vh;
+}
+
+.newsshop .one{
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 20px;
+    margin: 20px;
+}
+.newsshop .one div h3,.newsshop .one div p{
+    display: inline;
+}
+.newsshop .one div img{
+    vertical-align: middle;
+    margin-bottom: 40px;
+}
+.newsshop .one div h3{
+    margin-left: 10px;
+    font-family: 'Fjalla One', sans-serif;
+    position: relative;
+bottom: 30px;
+left: 5px;
+}
+.newsshop .one div p{
+position: relative;
+bottom:70px;
+left: 90px;
+color: gray;
+}
+
+/* ***************************************** */
+
+/* start of productblog */
+.productblog{
+    width: 80%;
+    height: 170vh;
+    margin: 100px 0px 100px 10%;
+    display: grid;
+    grid-template-rows: 40px repeat(3,150px) 100px 60px;
+}
+.productblog div{
+    border-bottom: 1px solid gray;
+    padding: 10px;
+}
+.productblog div img{
+    vertical-align: middle;
+    margin-bottom: 20px;
+}
+.productblog div p{
+    display: inline;
+}
+.productblog .first p{
+    font-family: 'Fjalla One', sans-serif;
+}
+.productblog .first .tittle{
+    margin: 0px 60% 0px 20px;
+}
+.productblog .first p:not(.tittle,.desc){
+    margin-right: 100px;
+}
+.productblog div p:nth-child(2){
+    color: gray;
+    margin-right: 32%;
+}
+.productblog div input[type="number"]{
+    width: 70px;
+    height: 30px;
+    padding: 0px;
+    margin: 0px 80px 0px;
+}
+.productblog div input[value="Update Cart"]{
+    color: black;
+    font-family: 'Fjalla One', sans-serif;
+    border: 1px solid gray;
+    padding: 10px 30px;
+    border-radius: 25px;
+    margin-right: 36%;
+}
+.productblog div input[type="button"]{
+    border-radius: 25px;
+    padding: 10px 20px;
+    border: 1px solid gray;
+}
+.productblog div input[type="text"]{
+    border-radius: 25px;
+    padding: 10px 30px;
+    border: 1px solid gray;
+}
+.productblog .sub p:nth-child(1){
+    margin-left: 75% ;
+    position: relative;
+    top: 15px;
+}
+.productblog .sub p:nth-child(2){
+    margin:30px 0px 0px 91% ;
+}
+.footerblog div {
+border: 0px;
+text-align: right;
+color: gray;
+height: 30px;
+position: relative;
+top: -20px;
+}
+.footerblog div p{
+    position: relative;
+    right: 240px;
+    top: 30px;
+    color: black;
+    font-family: 'Fjalla One', sans-serif;
+}
+.footerblog2{
+    position: relative;
+    top: 100px;
+}
+.footerblog2 div{
+    border: 0px;
+    text-align: right;
+    height: 30px;
+    position: relative;
+    right: 22px;
+    top: -20px;
+}
+.footerblog2 div select{
+    width: 350px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    color: gray;
+    padding-left: 20px;position: relative;
+    top: -20px;
+
+}
+.footerblog2 div select option{
+    color: gray;
+    padding-left: 10px;
+}
+ .footerblog2 div input[type="text"]{
+    width: 290px;
+    border-radius: 5px;
+    position: relative;
+    right:-25px ;
+    top: -35px;
+    height: 30px;
+}
+.footerblog2 .two{
+    margin: 10px 0px;
+}
+.footerblog2 div input[type="button"]{
+    width: 250px;
+    position: relative;
+    right:-25px ;
+    top: -10px;
+    color: black;
+    font-weight: bolder;
+}
+.footerblog3{
+    margin-top: 0px;
+    position: relative;
+    bottom: -30px;
+    border-top: 1px solid gray;
+    text-align: right;
+   
+}
+.footerblog3 input{
+    width: 250px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    color: black;
+    font-weight: bolder;
+}
+.footerblog3 input:nth-child(2){
+    background: blue;
+    color: white;
+}
+/* ****************************************************** */
+/* start of pages */
+/* start of productpages */
+.productpages{
+    width: 70%;
+    height: 80vh;
+    margin:10% 15% ;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.productpages .first{
+    background-color: rgba(0, 0, 255, 0.848);
+   text-align: center;
+   padding-top: 45%;
+}
+.productpages .first h1{
+    color: rgba(255, 255, 255, 0.979);
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 30px;
+    word-spacing: 5px;
+}
+.productpages .first p{
+    color: rgba(255, 255, 255, 0.922);
+    padding: 20px 40px 30px;
+    line-height: 25px;
+}
+.productpages .first a{
+    color: rgba(255, 255, 255, 0.922);
+    padding: 20px 40px;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding:10px 40px ;
+    font-size: 18px;
+}
+.productpages .second{
+    background-color:white;
+    text-align: center;
+ 
+}
+.productpages .second h1{
+    font-family: 'Fjalla One', sans-serif;
+font-weight: lighter;
+margin: 20% 0px 10% 0;
+}
+.productpages .second input[type="text"],.productpages .second input[type="password"],.second div input[type="email"]{
+    display: inline-block;
+    width: 300px;
+   background-color:transparent;
+   border: 0px;
+   border-bottom: 1px solid gray;
+    }
+.productpages .second input[type="password"]{
+    margin-top:15px;
+    }
+.productpages .second label[for="keep"]{
+    margin-right: 190px;
+    color: gray;
+    }
+    .productpages .second div a{
+        text-decoration: none;
+        color: white;
+        background-color: blue;
+        font-family: 'Fjalla One', sans-serif;
+        padding: 10px 150px;
+        border-radius: 20px;
+    }
+    .productpages .second div a:hover{
+        background-color: red;
+    }
+    .productpages .second .last,.productpages .second .final{
+        margin: 20px 0px 20px;
+    }
+    .productpages .second label[for="forget"]{
+        color: gray;
+        font-family: 'Fjalla One', sans-serif;
+    }
+    /* start of contact */
+     /* start of navbarcontact */
+    .navbarcontact h1{
+        margin-right: 85px;
+    }
+    .productpages .second .tittle{
+        margin-top: 7%;
+    }
+    .productpages .second .final a{
+        border-radius: 0px;
+        background-color: red;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
